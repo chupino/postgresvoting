@@ -10,4 +10,4 @@ else
     exit 1
 fi
 
-docker run -dp 8000:80 --name=postgres-db postgres-image
+docker run -dp 5432:5432 --name=postgres-db postgres-image
